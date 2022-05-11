@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500&display=swap');
+html{
+    padding: 2rem 2rem;
+    margin: 0;
+}
+body{
+    font-family: 'Mukto', cursive;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+section{
+    background-color: rgb(248, 243, 237);
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(139, 121, 240);
+    border-radius: 1rem;
+}
+#whitePart{
+    color: black;
+    flex: 1;
+    text-align: center;
+    padding-bottom: 1.4rem;
+    margin: auto;
+}
+#bluePart{
+    padding: 2rem;
+    flex: 2;
+    background-color: rgb(139, 121, 240);
+    border: 2px solid rgb(139, 121, 240);
+    border-radius: 1rem;
+    text-align: left;
+}
+ul > li{
+    list-style: none;
+    text-align: left;
+}
+#play{
+    display: flex;
+    align-items: left;
+    text-align: left;
+    flex-direction: column;
+}
+#play > button {
+    width: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 900;
+    height: 3rem;
+    border-radius: 1.4rem;
+    border: 3px solid powderblue;
+    background-color: rgb(139, 121, 240);
+}
+#play > button:hover{
+    width: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 900;
+    height: 3rem;
+    border-radius: 1.4rem;
+    border: 3px solid powderblue;
+    background-color: powderblue;
+}
+#buttons > button {
+    padding: 1rem;
+    width: 5rem;
+    height: 3rem;
+    font-weight: 900;
+    margin-top: 1rem;
+    border-radius: 1.4rem;
+    /* border: 1px solid black; */
+    background-color: none;
+}
+#right{
+    border: 2px solid greenyellow;
+}
+#right:hover{
+    background-color: greenyellow;
+    border: 2px solid greenyellow;
+}
+#wrong{
+    border: 2px solid red;
+}
+#wrong:hover{
+    border: 2px solid red;
+    background-color: red;
+}
+img{
+    width: 100%;
+  border-radius: 3rem;
+}
+span{
+    margin-bottom: 1rem;
+}
+button{
+    cursor: pointer;
+}
+#game{
+    display: flex;
+    flex-direction: row;
+}
+#extra{
+    margin: auto;
+    padding: 1rem;
+    font-weight: 300;
+    font-size: 1rem;
+    width: 60%;
+    height: 50%;
+    align-self: center;
+}
+#message{
+    text-align: center;
+    font-size: 170%;
+    padding: 2%;
+    margin: auto;
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 1s;
+}
+@keyframes fade {
+    form{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
